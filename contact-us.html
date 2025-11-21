@@ -64,7 +64,7 @@
           <div class="cs_hero_content cs_center_column text-center position-relative z-1">
             <p class="cs_hero_subtitle cs_fs_14 cs_medium cs_white_color cs_primary_font cs_mb_16 cs_radius_32 text-uppercase" data-aos="fade-down">Contáctanos</p>
             <h1 class="cs_hero_title cs_fs_72 cs_white_color cs_mb_16" data-aos="fade-up">Solicita tu cotización</h1>
-            <p class="cs_hero_desc cs_white_color cs_primary_font mb-0">Cuéntanos tu operación y te daremos una propuesta personalizada en menos de 24 horas.</p>
+            <p class="cs_hero_desc cs_white_color cs_primary_font mb-0">Cuéntanos tu operación y te daremos una propuesta personalizada en &nbsp;menos de 24 horas.</p>
           </div>
         </div>
         <div class="cs_vectoe_shape1 position-absolute">
@@ -86,58 +86,79 @@
           <div class="row cs_gap_y_24">
             <div class="col-lg-6 order-lg-2">
               <div class="cs_contact_form_wrapper cs_radius_16">
-                <form action="https://api.web3forms.com/submit" method="POST" class="cs_contact_form row cs_gap_y_24" id="cs_form">
-                  <input type="hidden" name="access_key" value="cd98b256-0db3-478c-ab28-1ec94f80447cqlinest">
-                  <div class="col-12">
-                    <div class="cs_input_group">
-                      <label for="name">Nombre completo</label>
-                      <input type="text" name="name" id="name" class="cs_form_field" placeholder="Nombre" autocomplete="name" required>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="cs_input_group">
-                      <label for="email">Correo electrónico</label>
-                      <input type="email" name="email" id="email" class="cs_form_field" placeholder="ejemplo.correo@correo.com" required>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="cs_input_group">
-                      <label for="subject">Asunto</label>
-                      <select name="subject" id="subject" class="tom_select">
-                        <option selected disabled>Selecciona una opción</option>
-                        <option value="home-cleaning">Necesito limpieza de flota</option>
-                        <option value="deep-cleaning">Requiero limpieza de planta industrial</option>
-                        <option value="move-in-out">Busco solución integral de limpieza</option>
-                        
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="cs_input_group">
-                      <label for="name">Mensaje</label>
-                      <textarea rows="4" name="message" id="message" class="cs_form_field" placeholder="Escribe tu mensaje"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="cs_input_group">
-                      <button type="submit" class="cs_btn_style_1 cs_center cs_accent_bg cs_primary_color cs_radius_32" data-aos="zoom-in"><span>Obtener mi cotización</span>
-                      </button>
-                      <div class="cs_blue_dark" id="cs_result"></div>
-                    </div>
-                  </div>
-                </form>
+                <form action="https://formsubmit.co/ventas@maximoesplendor.com.mx" method="POST"
+                        class="cs_contact_form row cs_gap_y_24" id="cs_form">
+                        <!-- Configuración FormSubmit -->
+                        <input type="hidden" name="_cc"
+                            value="juan.dml@maximoesplendor.com.mx,carlo.amc@maximoesplendor.com.mx">
+                        <input type="hidden" name="_subject"
+                            value="Nueva Solicitud de Cotización - Máximo Esplendor">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://jazminpe.github.io/MaximoEsplendor/">
+                        <input type="text" name="_honey" style="display:none">
+ 
+                        <div class="col-12">
+                            <div class="cs_input_group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" name="Nombre_Completo" id="name" class="cs_form_field"
+                                    placeholder="Nombre" autocomplete="name" required>
+                            </div>
+                        </div>
+ 
+                        <div class="col-12">
+                            <div class="cs_input_group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" name="Correo_Electronico" id="email" class="cs_form_field"
+                                    placeholder="ejemplo.correo@correo.com" required>
+                            </div>
+                        </div>
+ 
+                        <div class="col-12">
+                            <div class="cs_input_group">
+                                <label for="subject">Asunto</label>
+                                <select name="Tipo_de_Servicio" id="subject" class="tom_select" required>
+                                    <option value="" selected disabled>Selecciona una opción</option>
+                                    <option value="Limpieza de Flota">Necesito limpieza de flota</option>
+                                    <option value="Limpieza de Planta Industrial">Requiero limpieza de planta industrial
+                                    </option>
+                                    <option value="Solución Integral de Limpieza">Busco solución integral de limpieza
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+ 
+                        <div class="col-12">
+                            <div class="cs_input_group">
+                                <label for="message">Mensaje</label>
+                                <textarea rows="4" name="Mensaje" id="message" class="cs_form_field"
+                                    placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+                        </div>
+ 
+                        <div class="col-12">
+                            <div class="cs_input_group">
+                                <button type="submit"
+                                    class="cs_btn_style_1 cs_center cs_accent_bg cs_primary_color cs_radius_32"
+                                    data-aos="zoom-in">
+                                    <span>Obtener mi cotización</span>
+                                </button>
+                                <div class="cs_blue_dark" id="cs_result"></div>
+                            </div>
+                        </div>
+                    </form>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="cs_contact_info_wrapper cs_blue_bg3 cs_radius_16">
                 <div class="cs_contact_info">
                   <h3 class="cs_contact_title cs_fs_36 cs_mb_24">Datos de contacto</h3>
-                  <p class="cs_fs_18 cs_primary_color cs_primary_font mb-0">Comunicate con nuestro amable equipo a través de su método preferido, ya sea un mensaje rápido, una llamada telefónica o el envío de un formulario. </p>
+                  <p class="cs_fs_18 cs_primary_color cs_primary_font mb-0">Comunicate con nuestro amable equipo a través <br> de&nbsp; su método preferido, ya sea un mensaje rápido, <br>una &nbsp;llamada telefónica o el envío de un formulario. </p>
                 </div>
                 <ul class="cs_contact_info_list list-unstyled">
                   <li>
                     <h3 class="cs_fs_18 cs_mb_8">Correo</h3>
-                    <a href="ventas@maximoesplendor.com" aria-label="Email link" class="cs_primary_color cs_primary_font mb-0">ventas@maximoesplendor.com</a><br>
+                    <a href="ventas@maximoesplendor.com.mx" aria-label="Email link" class="cs_primary_color cs_primary_font mb-0">ventas@maximoesplendor.com.mx</a><br>
                                         <a href="juan.dml@maximoesplendor.com.mx" aria-label="Email link" class="cs_primary_color cs_primary_font mb-0">juan.dml@maximoesplendor.com.mx</a><br>
 
                                                             <a href="carlo.amc@maximoesplendor.com.mx" aria-label="Email link" class="cs_primary_color cs_primary_font mb-0">carlo.amc@maximoesplendor.com.mx</a>
@@ -229,16 +250,16 @@
       <!-- Start Footer Section -->
       <footer class="cs_footer_style_1 cs_primary_bg cs_radius_16 position-relative overflow-hidden">
          <div class="container p-0">
-          <div class="cs_newsletter_style_1 cs_blue_bg1 cs_radius_16 position-relative z-1">
+         <!-- <div class="cs_newsletter_style_1 cs_blue_bg1 cs_radius_16 position-relative z-1">
             <div class="cs_newsletter_text">
               <h3 class="cs_fs_24 cs_white_color cs_mb_16">Conoce Máximo Esplendor</h3>
               <p class="cs_white_color cs_primary_font mb-0">¿Quieres conocer más sobre lo que hacemos? Recibe información completa sobre nuestros servicios.</p>
             </div>
-           <form action="#" class="cs_newsletter_form position-relative">
+          <form action="#" class="cs_newsletter_form position-relative">
               <input type="email" name="email" placeholder="Tu correo" autocomplete="email" required>
               <button type="submit">Enviar</button>
             </form>
-          </div>
+          </div>-->
           <div class="cs_footer_main cs_center_column position-relative z-1">
             <div class="cs_footer_logo cs_mb_40 cs_mb_lg_30" data-aos="zoom-in">
               <img src="assets/img/maximoesplendor.svg" alt="Logo">

@@ -1016,7 +1016,7 @@ label {
 }
 
 .cs_mb_10 {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 .cs_mb_11 {
@@ -2887,7 +2887,7 @@ label {
   width: min(100%, 300px);
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
 .cs_hero_style_1 .cs_satisfied_customers .cs_customer_thumbnail_wrapper {
   display: flex;
@@ -3384,11 +3384,10 @@ label {
 }
 .cs_iconbox_style_1 .cs_iconbox_icon img {
   transition: transform 1s cubic-bezier(0.25, 0, 0.25, 1.2);
-}/*
+}
 .cs_iconbox_style_1:hover .cs_iconbox_icon img {
   transform: rotateY(360deg);
-}*/
-
+}
 
 .cs_iconbox_style_2 {
   display: flex;
@@ -4089,27 +4088,6 @@ label {
 .cs_hero_text_slider .slick-slide:not(.slick-active) [data-aos] {
     opacity: 0 !important;
     transform: none !important;
-}
-
-/* 1. Habilita el espacio 3D en el contenedor principal de las tarjetas */
-.cs_icon_wrapper_style_1 {
-    perspective: 1000px; /* Define la profundidad para el efecto 3D */
-    /* Si ya tienes esta clase definida, simplemente añade la propiedad 'perspective' */
-}
-
-/* 2. Modifica la tarjeta para prepararla para la rotación */
-.cs_iconbox_style_1 {
-    /* La tarjeta ya tiene una transición de 0.3s, la usaremos para animar el giro. */
-    transform-style: preserve-3d; /* Permite que el elemento tenga un entorno 3D */
-    /* Recomendación: Para un giro más suave, considera aumentar el tiempo de la transición a 0.6s en la regla existente: */
-    transition: all 1s ease-in-out;
-}
-
-/* 3. Aplica la rotación al pasar el mouse */
-.cs_iconbox_style_1:hover {
-    /* Mantiene el box-shadow existente y añade: */
-    box-shadow: 0 0 0 3px rgba(255, 212, 57, 0.3), 0 8px 25px rgba(0, 0, 0, 0.15);
-    transform: rotateY(360deg); /* Aplica un giro completo de 180 grados en el eje Y */
 }
 
 
